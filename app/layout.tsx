@@ -5,14 +5,15 @@ import { Footer } from "../components/Footer";
 
 export const metadata: Metadata = {
   title: "Grožio ir Sveikatos Tarnyba – klinika Klaipėdoje",
-  description: "Profesionalios grožio ir sveikatos paslaugos Klaipėdoje.",
+  description: "Moderni klinika Klaipėdoje: profesionalios konsultacijos ir procedūros.",
+  openGraph: {
+    title: "GST Klinika – Klaipėda",
+    description: "Moderni klinika Klaipėdoje: profesionalios konsultacijos ir procedūros.",
+    images: ["/og.jpg"],
+  },
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="lt">
       <body className="bg-gray-50 text-gray-900">
