@@ -1,9 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.container-max{ @apply max-w-6xl mx-auto px-4; }
-.card{ @apply rounded-2xl shadow-lg bg-white; }
-.btn{ @apply inline-flex items-center justify-center rounded-xl px-5 py-3 font-medium transition; }
-.btn-primary{ @apply btn bg-brand text-white; }
-.btn-outline{ @apply btn border border-brand text-brand bg-white; }
-.card:hover { transform: translateY(-1px); transition: transform 150ms; }
+
+/* Bendri */
+html, body { height: 100%; }
+.container-max { @apply max-w-6xl mx-auto px-4; }
+.card { @apply rounded-2xl shadow-lg bg-white; }
+
+/* Mygtukai */
+.btn { @apply inline-flex items-center justify-center rounded-xl px-5 py-3 font-medium transition; }
+.btn-primary { @apply btn bg-brand-900 text-white hover:opacity-90; }
+.btn-outline { @apply btn border border-brand-900 text-brand-900 bg-white hover:bg-brand-300/20; }
+
+/* Hero fonas: švelni violetinė banga + gradientas */
+.hero-gradient{
+  background:
+    radial-gradient(1200px 600px at 85% 10%, rgba(98,65,115,.15), transparent 60%),
+    linear-gradient(180deg, #CAB2DB 0%, #fff 65%);
+}
+
+/* Kortelių mikro-animacija */
+.card:hover { transform: translateY(-2px); transition: transform 160ms; }
