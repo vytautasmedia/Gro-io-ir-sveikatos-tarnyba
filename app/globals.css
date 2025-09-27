@@ -6,3 +6,4 @@
 .btn{ @apply inline-flex items-center justify-center rounded-xl px-5 py-3 font-medium transition; }
 .btn-primary{ @apply btn bg-brand text-white; }
 .btn-outline{ @apply btn border border-brand text-brand bg-white; }
+.card:hover { transform: translateY(-1px); transition: transform 150ms; }
