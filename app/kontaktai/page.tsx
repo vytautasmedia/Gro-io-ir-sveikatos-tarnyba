@@ -1,0 +1,1 @@
+export default function Page(){return(<section className='container-max py-16'><h1 className='text-3xl font-semibold'>Kontaktai</h1></section>);}

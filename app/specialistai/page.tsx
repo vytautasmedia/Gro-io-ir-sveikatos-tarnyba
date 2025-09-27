@@ -1,0 +1,1 @@
+export default function Page(){return(<section className='container-max py-16'><h1 className='text-3xl font-semibold'>Mūsų specialistai</h1><p className='text-gray-600 mt-2'>Patyrusi komanda.</p></section>);}
